@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CountTicketsCostApp</string>
+    <string name="ticketsCostTitle">Общая стоимость билетов:</string>
+    <string name="ticketsCostHint">Здесь будет стоимость билетов</string>
 </resources>

@@ -3,6 +3,7 @@ package com.fresh.countticketscostapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 import com.fresh.countticketscostapp.tickites.BusTicket;
 import com.fresh.countticketscostapp.tickites.BusTicketChild;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         fillCart();
-        System.out.println(cart.countCost());
+        TextView ticketsCostOut = findViewById(R.id.ticketsCostOut);
+        ticketsCostOut.setText(cart.countCost() + " монет");
     }
 }
