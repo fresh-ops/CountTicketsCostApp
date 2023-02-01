@@ -6,7 +6,7 @@ public class BusTicket {
     private String departureDate;
     private String travelTime;
     private float distance;
-    private float price;
+    protected float price;
 
     public BusTicket() {
     }
